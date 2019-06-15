@@ -53,7 +53,7 @@ function artikelterkait() {
 	}
 	for (var g, c = 0, p = Math.floor((reljudul.length - 1) * Math.random()), m = p, d = getQueryVariable("pos"); c < relmaxtampil && (relurls[p] == d || (g = "<article class='related-item item'>", g += "<h2 class='entry-title'><a href='" + relurls[p] + "'>" + reljudul[p] + "</a></h2>", g += "<p class='news-text'>" + relcuplikan[p] + " ... </p>", g += "</article>", document.write(g), ++c != relmaxtampil)) && (p < reljudul.length - 1 ? p++ : p = 0, p != m););
 }
-for (var labels = getQueryVariable("labels"), relmaxtampil = getQueryVariable("num"), url = "https://www.mankoin.blog", res = labels.split(","), i = 0, text = ""; res[i];) text += '<script src="' + url + "/feeds/posts/default/-/" + res[i] + '?alt=json&callback=relpostimgcuplik&max-results=50"><\/script>', i++;
+for (var labels = getQueryVariable("labels"), relmaxtampil = getQueryVariable("num"), url = "https://jalur-kesehatan.blogspot.com", res = labels.split(","), i = 0, text = ""; res[i];) text += '<script src="' + url + "/feeds/posts/default/-/" + res[i] + '?alt=json&callback=relpostimgcuplik&max-results=50"><\/script>', i++;
 var relnojudul = 0,
 	numchars = 120,
 	reljudul = new Array,
